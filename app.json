@@ -8,9 +8,11 @@
     "scheme": "reminder",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.kostya088.reminder"
     },
     "android": {
+      "package": "com.kostya088.reminder",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
